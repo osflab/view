@@ -9,7 +9,7 @@
 
 namespace Osf\View\Helper\Bootstrap\Tools;
 
-use Osf\Error;
+use Osf\Exception\Error;
 use Osf\View\Helper\Bootstrap\AbstractViewHelper as AVH;
 
 /**
