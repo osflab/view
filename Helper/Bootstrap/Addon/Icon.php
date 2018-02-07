@@ -111,7 +111,7 @@ trait Icon
     }
     
     /**
-     * FR: Construction du code HTML de l'icone
+     * Build the HTML code of the icon
      * @param string $icon
      * @param bool $animated
      * @param array $cssClasses

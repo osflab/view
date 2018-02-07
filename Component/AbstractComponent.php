@@ -88,7 +88,7 @@ abstract class AbstractComponent
     }
     
     /**
-     * FR: Supprime les scripts javascript (utilisé pour annuler ces scripts en cas de redirection)
+     * Remove JS scripts (usefull for a redirect)
      * @return $this
      */
     public function clearScripts()

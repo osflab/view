@@ -29,7 +29,7 @@ class Msg extends AVH
     use Addon\Status;
     
     /**
-     * FR: Boite d'information très simple, sans titre
+     * Simple information box without title
      * @param string $content
      * @param string $status
      * @return \Osf\View\Helper\Bootstrap\Msg

@@ -29,7 +29,7 @@ trait MvcUrl
     ];
     
     /**
-     * FR: Définit les paramèters de l'url MVC
+     * Define the MVC parameters of the url
      * @param string $controller
      * @param string $action
      * @param array $params
@@ -46,7 +46,7 @@ trait MvcUrl
     }
     
     /**
-     * FR: Définit un paramètre mvc individuellement
+     * Define a MVC parameter individually
      * @param string $paramName
      * @param string $value
      * @return $this

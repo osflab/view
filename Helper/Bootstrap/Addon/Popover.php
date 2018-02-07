@@ -12,7 +12,7 @@ use Osf\View\Helper\Bootstrap\Tools\Checkers;
 use Osf\View\Component;
 
 /**
- * Popover addon (FR: bulle d'aide avec titre)
+ * Popover addon
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
@@ -27,12 +27,12 @@ trait Popover
     protected $popoverOptions = [];
     
     /**
-     * FR: Bulle d'aide avec titre
+     * Help bubble with title
      * @param string $title
      * @param string $txt
      * @param string $placement top, bottom, left, right
-     * @param bool $html pour mettre du HTML plutôt que du texte
-     * @param string $container 'body' ou nom de balise ou rattacher l'infobulle
+     * @param bool $html to put HTML instead of text
+     * @param string $container 'body' or name of the tag to attache to the popover
      * @param int $delay délai de l'animation (ms) 
      * @return $this
      */
@@ -49,7 +49,7 @@ trait Popover
     }
     
     /**
-     * FR: Renvoit les attributs et active les popovers au niveau jquery
+     * Get attributes and active popovers for jquery
      * @return array
      */
     public function getPopoverAttributes():array

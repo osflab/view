@@ -12,7 +12,7 @@ use Osf\Exception\ArchException;
 use Zend\View\Renderer\RendererInterface;
 
 /**
- * FR: Utiliser ce trait dans les autres traits d'aide de vue pour récupérer la vue courant
+ * Use this trait in other view traits to get the current view
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
@@ -50,7 +50,7 @@ abstract class AbstractViewHelper implements ViewHelperInterface
     }
     
     /**
-     * FR: Cumule du code HTML dans le but de le restituer
+     * Cumulate HTML code in order to restitute it
      * @param string $newLine
      * @param bool $condition ignored if false
      * @return $this
@@ -64,7 +64,7 @@ abstract class AbstractViewHelper implements ViewHelperInterface
     }
     
     /**
-     * FR: Restitue le code HTML dans un format correspondant à l'environnement
+     * Restitute the HTML code
      * Et réinitialise le escape
      * @return string
      */

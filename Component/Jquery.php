@@ -46,7 +46,7 @@ class Jquery extends AbstractComponent
     }
     
     /**
-     * FR: Active le focus sur les éléments ayant un attribut "autofocus"
+     * Activate focus on elements with the attribute "autofocus"
      * @staticvar boolean $activated
      * @return $this
      */

@@ -67,9 +67,9 @@ class Help extends AVH
      */
     public function render()
     {
-            $modal = (string) Container::getViewHelper()
-                    ->modal($this->hash, null, ' ', null, AVH::STATUS_INFO);
-            $this->html($modal);
+        $modal = (string) Container::getViewHelper()
+                ->modal($this->hash, null, ' ', null, AVH::STATUS_INFO);
+        $this->html($modal);
         $modalLink = (string) Container::getViewHelper()
                 ->modalLink($this->getIconHtml(), $this->hash, [], 'a', false)
                 ->setLoadUrl($this->getMvcUrl());
@@ -77,7 +77,7 @@ class Help extends AVH
     }
     
     /**
-     * FR: Retourne le hash correspondant au fichier pour l'id du modal
+     * Get a file hash for the modal id
      * @param string $helpFileBaseName
      * @return string
      */

@@ -34,15 +34,7 @@ class Load extends AVH
     use Content;
     
     /**
-     * Boite d'information supprimable avec titre et icone
-     * @param string $title
-     * @param string $content
-     * @param string $status
-     * @param string $icon
-     */
-    
-    /**
-     * FR: Espace "Loading" destiné à être remplacé par du contenu
+     * Loading box to display before the usefull content
      * @param string $icon
      * @return \Osf\View\Helper\Bootstrap\Load
      */

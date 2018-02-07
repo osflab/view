@@ -11,7 +11,7 @@ namespace Osf\View\Helper\Addon;
 use Osf\Stream\Text as T;
 
 /**
- * FR: Contenu à mettre après l'élément. S'il y a un conteneur, on reste dedans.
+ * Content to put after the element. If there is a container, we stay in it.
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates

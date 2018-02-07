@@ -101,7 +101,7 @@ class DropDownMenu extends AVH
     }
     
     /**
-     * FR: Label permettant de lier les menus à leurs boutons d'action
+     * Label usefull to link menus to the corresponding action buttons
      * @return string
      */
     public function getLabelledBy()

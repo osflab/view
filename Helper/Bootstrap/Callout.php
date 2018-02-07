@@ -31,7 +31,7 @@ class Callout extends AVH
     use Addon\Status;
 
     /**
-     * FR: Boite d'information avec titre
+     * Information box with title
      * @param string|null $title
      * @param string|null $content
      * @param string|null $status

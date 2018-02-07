@@ -33,7 +33,7 @@ class Alert extends AVH
     use Addon\Removable;
     
     /**
-     * FR: Boite d'information supprimable avec titre et icone
+     * Information box deletable with title and icon
      * @param string $title
      * @param string $content
      * @param string $status

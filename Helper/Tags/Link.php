@@ -25,7 +25,7 @@ trait Link
     protected $links = [];
     
     /**
-     * FR: Lien vers une feuille de styles CSS
+     * Link to a CSS stylesheet
      * @param string $href
      * @param string $media
      * @param array $attributes

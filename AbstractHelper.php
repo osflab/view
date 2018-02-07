@@ -149,7 +149,6 @@ abstract class AbstractHelper implements HelperInterface
     
     /**
      * Set the View object
-     *
      * @param Renderer $view
      * @return HelperInterface
      */
@@ -161,7 +160,6 @@ abstract class AbstractHelper implements HelperInterface
 
     /**
      * Get the View object
-     *
      * @return \Osf\View\OsfView
      */
     public function getView()
@@ -241,7 +239,7 @@ abstract class AbstractHelper implements HelperInterface
     }
     
     /**
-     * FR: Simule isset sur propriété dynamique
+     * Simulate isset on a dynamic property
      * @param string $key
      */
     public function __isset($key)

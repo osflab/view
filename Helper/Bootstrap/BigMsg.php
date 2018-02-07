@@ -31,11 +31,11 @@ class BigMsg extends AVH
     use Addon\Status;
     
     /**
-     * FR: Boite d'information très visible
+     * Very visible information box
      * @param string|null $content
      * @param string|null $subContent
      * @param string|null $status
-     * @return \Osf\View\Helper\Bootstrap\Msg
+     * @return \Osf\View\Helper\Bootstrap\BigMsg
      */
     public function __invoke(?string $content = null, ?string $subContent = null, ?string $status = AVH::STATUS_INFO)
     {

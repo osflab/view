@@ -68,7 +68,7 @@ class Html extends AVH
     }
     
     /**
-     * FR: Génère uniquement pour les mobiles
+     * Generate only for mobiles
      * @return $this
      */
     public function mobileOnly()
@@ -78,7 +78,7 @@ class Html extends AVH
     }
     
     /**
-     * FR: Ne génère pas pour les mobiles et cache pour les petits écrans
+     * Do not generate for mobiles and hide content on little screens
      * @return $this
      */
     public function mobileExclude()
@@ -88,7 +88,7 @@ class Html extends AVH
     }
     
     /**
-     * FR: Génère uniquement pour les mobiles et les tablettes
+     * Generate only for mobiles and tablets
      * @return $this
      */
     public function mobileAndTabletOnly()
@@ -98,7 +98,7 @@ class Html extends AVH
     }
     
     /**
-     * FR: Ne génère pas pour les mobiles et les tablettes et cache pour les petits écrans
+     * Do not generate for mobiles and tablets, hide content on little screens
      * @return $this
      */
     public function mobileAndTabletExclude()
@@ -108,7 +108,7 @@ class Html extends AVH
     }
     
     /**
-     * FR: Nombre de caractères maxi pour les petits écrans (
+     * Maximum chars count for little screens
      * @param $nbChars int|null|'auto'
      * @return $this
      */
@@ -128,7 +128,7 @@ class Html extends AVH
     }
     
     /**
-     * escape output or not
+     * Escape output or not
      * @param bool $trueOrFalse
      * @return $this
      */

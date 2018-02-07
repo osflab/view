@@ -35,7 +35,7 @@ class SmallBox extends AVH
     protected $linkIcon;
     
     /**
-     * FR: Boite d'information avec lien
+     * Information box with link
      * @param string $title
      * @param string $content
      * @param string $type

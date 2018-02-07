@@ -101,7 +101,7 @@ class Link extends AbstractViewHelper
     }
     
     /**
-     * FR: Est-ce un lien ajax (uniquement pour les liens MVC)
+     * Is it an ajax link ? (only for MVC links)
      * @param bool|null $isAjaxLink
      * @return $this
      */

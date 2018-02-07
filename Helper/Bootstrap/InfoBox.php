@@ -35,7 +35,7 @@ class InfoBox extends AVH
     protected $progressDescription;
     
     /**
-     * FR: Boite d'information avec valeur numérique
+     * Information box with a numeric value
      * @param string $title
      * @param string $value
      * @param string $icon

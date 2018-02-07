@@ -12,7 +12,7 @@ use Osf\View\Helper\Bootstrap\Tools\Checkers;
 use Osf\Container\OsfContainer as Container;
 
 /**
- * Tooltip addon (FR: infobulle)
+ * Tooltip addon
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
@@ -27,7 +27,7 @@ trait Tooltip
     protected $tooltipOptions = [];
     
     /**
-     * FR: Bulle d'aide (infobulle)
+     * Set the tooltip
      * @param string $txt
      * @param string $placement top, bottom, left, right
      * @param bool $html pour mettre du HTML plutôt que du texte
