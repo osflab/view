@@ -12,7 +12,7 @@ use Zend\View\Helper\HelperInterface as ZendHelperInterface;
 use Zend\View\Renderer\RendererInterface as Renderer;
 
 /**
- * Interface for helper classess
+ * Interface for helper classes
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates

@@ -14,7 +14,7 @@ use Zend\View\Helper\HelperInterface;
 use Zend\View\Renderer\RendererInterface as Renderer;
 
 /**
- * FR: Classe mère des helpers de vue
+ * View helpers super class
  * 
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
@@ -81,7 +81,7 @@ abstract class AbstractHelper implements HelperInterface
     }
     
     /**
-     * FR: Appel dynamique des helpers externes
+     * Dynamic call for external helpers
      * @param string $helper
      * @param array $params
      * @throws ArchException

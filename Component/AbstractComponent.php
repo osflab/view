@@ -11,7 +11,7 @@ namespace Osf\View\Component;
 use Osf\Container\OsfContainer as Container;
 
 /**
- * Javascript and CSS components mother class
+ * Javascript and CSS components super class
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates

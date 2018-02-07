@@ -11,7 +11,7 @@ namespace Osf\View\Helper;
 use Osf\Container\OsfContainer as Container;
 
 /**
- * Default router unit tests
+ * View helpers unit tests
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
@@ -33,6 +33,9 @@ class Test extends \Osf\Test\Runner
         self::assert($helper instanceof \Osf\View\Helper, 'Bad helper class type');
         self::assert($helper->get('a') === '<i>b</i>', 'Bad value getted');
         self::assert($helper->getHtmlEscape('a') == '&lt;i&gt;b&lt;/i&gt;', 'Not escaped value ?');
+        $layoutHelper = Container::getViewHelperLayout(false);
+        self::assert($layoutHelper instanceof \Osf\View\Helper, 'Bad helper class type for layout');
+        self::assert($layoutHelper->get('a') !== null, 'Value detected, not normal');
         
         return self::getResult();
     }

@@ -17,7 +17,6 @@ use Osf\Exception\ArchException;
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright NEA 2009
  * @version 2.0
- * @since NEA_PHP-1.0
  * @package common
  * @subpackage helpers
  * @deprecated

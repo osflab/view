@@ -16,7 +16,7 @@ use Osf\View\Helper\Bootstrap\Addon\ColorInterface;
 use Osf\View\Helper\Bootstrap\Addon\StatusInterface;
 
 /**
- * Bootstrap mother class view helper
+ * Bootstrap parent class view helper
  *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates

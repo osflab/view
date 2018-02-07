@@ -11,7 +11,7 @@ namespace Osf\View;
 use Osf\Container\OsfContainer as Container;
 
 /**
- * FR: Classe mère des helpers statiques
+ * Static helpers super class
  * 
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates
@@ -55,8 +55,8 @@ abstract class AbstractStaticHelper
     }
     
     /**
-     * @param type $name
-     * @param type $params
+     * @param name $name
+     * @param array $params
      * @param \Osf\View\AbstractHelper $viewHelper
      * @return mixed
      */

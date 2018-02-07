@@ -9,6 +9,7 @@
 namespace Osf\View;
 
 use Osf\Container\OsfContainer as Container;
+use Osf\Exception\ArchException;
 use Osf\View\HelperInterface;
 
 /**
@@ -27,18 +28,18 @@ class Component
     protected static $registerComponentScripts = false;
     
     /**
-     * FR: Gère les instances des composants
-     * @param type $className
+     * Manage components instances
+     * @param string $className
      * @return type
      * @throws \Osf\Exception\ArchException
      * @return \Osf\View\Component\AbstractComponent
      */
-    protected static function buildComponent($className)
+    protected static function buildComponent(string $className)
     {
         if (!isset(self::$components[$className])) {
             self::$components[$className] = Container::buildObject("\\Osf\\View\\Component\\" . $className);
             if (!(self::$components[$className] instanceof Component\AbstractComponent)) {
-                throw new \Osf\Exception\ArchException('Component [' . $className . '] must be an AbstractComponent');
+                throw new ArchException('Component [' . $className . '] must be an AbstractComponent');
             }
         }
         return self::$components[$className];

@@ -11,6 +11,9 @@ namespace Osf\View;
 /**
  * Data table for Osf\View\Helper\Bootstrap\Table
  *
+ * This class manage a collection of data and a configuration
+ * in order to be displayed with the Bootstrap Table helper.
+ *
  * @author Guillaume Ponçon <guillaume.poncon@openstates.com>
  * @copyright OpenStates 2010
  * @version 2.0
@@ -20,14 +23,14 @@ namespace Osf\View;
  */
 class Table
 {
-    const FP_DISPLAY   = 'display';
-    const FP_PATTERN   = 'pattern';
-    const FP_LABEL     = 'label';
-    const FP_WIDTH     = 'width';
-    const FP_ATTRS     = 'attrs';
-    const FP_CSS       = 'css';
-    const FP_STYLE     = 'style';
-    const FP_CALLBACK  = 'callback';
+    const FP_DISPLAY  = 'display';
+    const FP_PATTERN  = 'pattern';
+    const FP_LABEL    = 'label';
+    const FP_WIDTH    = 'width';
+    const FP_ATTRS    = 'attrs';
+    const FP_CSS      = 'css';
+    const FP_STYLE    = 'style';
+    const FP_CALLBACK = 'callback';
     
     const FIELD_CONDITION = 'condition';
     const FPC_FIELD       = 'field';
