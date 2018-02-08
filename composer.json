@@ -19,10 +19,16 @@
         "zendframework/zend-db": "^2.9",
         "zendframework/zend-paginator": "^2.8",
         "zendframework/zend-view": "^2.10",
-        "osflab/db": "~3.0.0",
         "osflab/container": "~3.0.0",
         "osflab/exception": "~3.0.0",
         "osflab/stream": "~3.0.0"
+    },
+    "require-dev": {
+        "osflab/test": "~3.0.0"
+    },
+    "provide": {
+        "osflab/form": "3.0.0",
+        "osflab/navigation": "3.0.0"
     },
     "suggest": {
         "osflab/controller": "~3.0.0",
